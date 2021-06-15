@@ -1,6 +1,6 @@
 # JAM stack based on NextJS
 
-Example of the landing with optional blog, using [NextJS](https://nextjs.org) SSR with TypeScript. Content coming from [Forestry](https://forestry.io), styling with [TailwindCSS](https://tailwindcss.com).
+Example of the landing with optional blog, using [NextJS](https://nextjs.org) SSR with TypeScript. Content coming from [Forestry](https://forestry.io), styling with [TailwindCSS](https://tailwindcss.com). As an example we're using [Kitwind](https://kitwind.io/products/kometa) as free layouts for TailwindCSS.
 
 ## Usage
 
@@ -17,7 +17,7 @@ When we run `next dev` the next time, NextJS will start looking for any .ts or .
 Default structure of the NextJS project diplaced at the root folder, but NextJS support `./src` as well.
 
 * Main routes is at `./src/pages/`
-* Template for blog posts is `./src/blog/[slug].ts`
+* Template for blog posts is `./src/blog/[id].tsx`
 * Static content like images at `./public/static/`
 
 ## Configuration
