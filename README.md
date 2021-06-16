@@ -1,6 +1,8 @@
-# JAM stack based on NextJS
+# JAM template with NextJS
 
-Example of the landing with optional blog, using [NextJS](https://nextjs.org) SSR with TypeScript. Content coming from [Forestry](https://forestry.io), styling with [TailwindCSS](https://tailwindcss.com). As an example we're using [Kitwind](https://kitwind.io/products/kometa) as free layouts for TailwindCSS.
+Example of the landing with optional blog, using [NextJS](https://nextjs.org) SSG with TypeScript. Content coming from [Forestry](https://forestry.io), styling with [TailwindCSS](https://tailwindcss.com). As an example I'm using [Kitwind](https://kitwind.io/products/kometa) as free layouts for TailwindCSS.
+
+What is JAM stack? See <https://jamstack.org>
 
 ## Usage
 
@@ -37,6 +39,8 @@ import 'tailwindcss/tailwind.css'
 ```
 
 ## Deployment
+
+Out-of-box supported only deployment to [Vercel](https://vercel.com), but you can configure [custom server](https://nextjs.org/docs/advanced-features/custom-server), e.g. Express, Koa, Hapi, etc.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/uxpulse/jam-landing-next)
 

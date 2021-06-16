@@ -1,27 +1,30 @@
 {
-  "name": "starter-next-forestry",
+  "name": "jamstack-next-forestry",
   "version": "0.0.1",
-  "description": "JAM SSR with NextJS and Forestry",
+  "description": "JAM SSG with NextJS and Forestry",
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "preview": "next -p 8080 -H 0.0.0.0",
     "start": "next start",
     "type-check": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uxpulse/starter-next-forestry.git"
+    "url": "git+https://github.com/maxcoffer/jamstack-next-forestry.git"
   },
   "author": "Max Coffer",
   "keywords": [
-    "next",
+    "jamstack",
+    "nextjs",
     "forestry",
-    "tailwind"
+    "tailwindcss",
+    "typescript"
   ],
   "bugs": {
-    "url": "https://github.com/uxpulse/starter-next-forestry/issues"
+    "url": "https://github.com/maxcoffer/jamstack-next-forestry/issues"
   },
-  "homepage": "https://github.com/uxpulse/starter-next-forestry#readme",
+  "homepage": "https://github.com/maxcoffer/jamstack-next-forestry#readme",
   "dependencies": {
     "autoprefixer": "^10.2.6",
     "next": "^10.2.3",
